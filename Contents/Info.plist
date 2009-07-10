@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Markdown Export</string>
+	<key>CFBundleGetInfoString</key>
+	<string>OmniOutliner 3 to Markdown text export plugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Markdown</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.1</string>
+	<key>OFRegistrations</key>
+	<dict>
+		<key>OOXSLPlugin</key>
+		<dict>
+			<key>Markdown (Text)</key>
+			<dict>
+				<key>fileExtension</key>
+				<string>txt</string>
+				<key>result</key>
+				<string>-//W3C//DTD XHTML 1.0 Strict//EN</string>
+				<key>source</key>
+				<string>-//omnigroup.com//DTD OUTLINE 3.0//EN</string>
+				<key>stylesheet</key>
+				<string>oo2markdown</string>
+				<key>writeAllAttachmentInfo</key>
+				<true/>
+			</dict>
+			<key>Markdown (With Attachments)</key>
+			<dict>
+				<key>directoryExtension</key>
+				<string>.mark</string>
+				<key>fileExtension</key>
+				<string></string>
+				<key>index</key>
+				<string>index.txt</string>
+				<key>result</key>
+				<string>-//W3C//DTD XHTML 1.0 Strict//EN&lt;</string>
+				<key>source</key>
+				<string>-//omnigroup.com//DTD OUTLINE 3.0//EN</string>
+				<key>stylesheet</key>
+				<string>oo2markdownAttachment</string>
+				<key>writeAllAttachmentInfo</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>OFRequiredSoftwareVersions</key>
+	<dict/>
+</dict>
+</plist>
