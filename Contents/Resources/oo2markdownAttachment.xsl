@@ -92,6 +92,11 @@
 		<xsl:value-of select="normalize-space(oo:values/oo:text/oo:p)"/>
 		<xsl:text>:</xsl:text>
 		<xsl:apply-templates select="oo:note"/>
+		<xsl:variable name="val" select="normalize-space(oo:note)"/>
+		<xsl:if test="$val = ''">
+			<xsl:text>
+</xsl:text>
+		</xsl:if>
 		<xsl:apply-templates select="oo:children" mode="metadata"/>
 	</xsl:template>
 
@@ -176,7 +181,8 @@
 	</xsl:template>
 
 	<xsl:template match="oo:cell">
-		<xsl:variable name="refid" select="@refid"/>		<xsl:text>![</xsl:text>
+		<xsl:variable name="refid" select="@refid"/>
+		<xsl:text>![</xsl:text>
 		<xsl:value-of select="@name"/>
 		<xsl:text>](</xsl:text>
 		<xsl:value-of select="/oo:outline/oo:attachments/oo:attachment[@id = $refid]/@href"/>
