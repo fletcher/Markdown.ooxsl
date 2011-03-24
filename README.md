@@ -2,8 +2,7 @@ Title:			Markdown export plugin for OmniOutliner
 Author:			Fletcher T. Penney  
 Affiliation:	fletcherpenney.net  
 Date:			July 10, 2009  
-Copyright:		2009 Fletcher T. Penney.  
-Keywords:		
+Copyright:		(c) 2009-2010, Fletcher T. Penney.  
 
 # Introduction #
 
@@ -12,3 +11,6 @@ processing through Markdown or MultiMarkdown. For more information, please
 see:
 
 <http://fletcherpenney.net/multimarkdown/multimarkdown_and_omnioutliner/>
+
+This script is "agnostic" as to the version of MultiMarkdown syntax being
+used, so it is compatible with MMD 2, or MMD 3.
