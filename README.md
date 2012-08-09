@@ -17,7 +17,7 @@ used, so it is compatible with MMD 2, or MMD 3.
 
 # Where to Get It #
 
-* [Markdown.ooxsl](http://fletcher.github.com/Markdown.ooxsl/)
+* [Markdown.ooxsl](https://github.com/fletcher/Markdown.ooxsl)
 
 
 **Note**: *There are actually two versions of the export function included. In
