@@ -28,10 +28,12 @@ document that will be exported. There is a single bundle with both versions.*
 
 # How to use this #
 
-* Install the plugin (see the OmniOutliner directions), but I recommend
+* Install the plugin (see the OmniOutliner directions for more details, as this keeps changing.  Apparently, as of OO v4, you can finally double click plug-ins to install, but I have not verified this), but I recommend
   placing in:
 
 		~/Library/Application Support/OmniOutliner 3/Plug-Ins
+
+	**NOTE**: If you have trouble getting the plug-in to install -- that's an issue for Omni.  I can't help you.  Once you get it installed, if it's not working properly for you then I might be able to help.  But I'm not actively developing this anymore, since it's pretty much complete as is.
 
 * Create an outline
 
