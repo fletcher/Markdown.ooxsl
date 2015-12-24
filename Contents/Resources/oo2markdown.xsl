@@ -181,11 +181,10 @@
 	</xsl:template>
 
 	<xsl:template match="oo:cell">
-		<xsl:text>![</xsl:text>
-		<xsl:value-of select="@refid"/>
+		<xsl:text>[</xsl:text>
 		<xsl:value-of select="@name"/>
-		<xsl:value-of select="@href"/>
 		<xsl:text>](</xsl:text>
+		<xsl:value-of select="@href"/>
 		<xsl:text>)</xsl:text>
 		<xsl:value-of select="$newline"/>
 	</xsl:template>
